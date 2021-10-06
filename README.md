@@ -1,2 +1,2 @@
 # hw06switcheroo
-oorehctiws06wh
+In hw 6, the obligatory description writes you!
