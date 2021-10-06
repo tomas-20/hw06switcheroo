@@ -8,6 +8,9 @@ int main() {
   for (int i = 1; i < 10; i ++) {
     array[i] = rand();
   }
+  for (int i = 0; i < 10; i ++) {
+    printf("at index %d of array we have %d\n", i, array[i]);
+  }
   int yarra[10];
   int *array_start = array;
   int *yarra_start = yarra;
