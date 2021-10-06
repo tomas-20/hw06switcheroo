@@ -12,11 +12,12 @@ int main() {
     printf("at index %d of array we have %d\n", i, array[i]);
   }
   int yarra[10];
-  int *array_start = array;
-  int *yarra_start = yarra;
-  int *yarra_end = yarra_start + 9;
+  int *array_land = array;
+  int *yarra_land = yarra;
+  int *ai = array_land;
+  int *yi = yarra_land + 9;
   for (int i = 0; i < 10; i ++) {
-    *(yarra_end - i) = *(array_start + i);
+    *yi -- = *ai ++;
   }
   return 0;
 }
