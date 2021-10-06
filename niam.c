@@ -19,5 +19,9 @@ int main() {
   for (int i = 0; i < 10; i ++) {
     *yi -- = *ai ++;
   }
+  yi = yarra_land;
+  for (int i = 0; i < 10; i ++) {
+    printf("at index %d of yarra we have %d\n", i, *yi ++);
+  }
   return 0;
 }
