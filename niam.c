@@ -8,5 +8,12 @@ int main() {
   for (int i = 1; i < 10; i ++) {
     array[i] = rand();
   }
+  int yarra[10];
+  int *array_start = array;
+  int *yarra_start = yarra;
+  int *yarra_end = yarra_start + 9;
+  for (int i = 0; i < 10; i ++) {
+    *(yarra_end - i) = *(array_start + i);
+  }
   return 0;
 }
